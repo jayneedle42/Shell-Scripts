@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script automatically decompresses a file with multiple levels of compression. When it reaches a readable form the contents are concatenated to the terminal.
+
 # Function to check the file type and decompress if necessary
 check_and_decompress() {
     local file=$1
