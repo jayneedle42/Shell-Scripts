@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# NOTE This method is really slow, but is a good example of a simple brute force script.
+# This script is for OverTheWire Level 24. It acts as a brute force script trying every possible combination of a 4-digit pin to connect with Netcat. 
+
+# NOTE: This method is really slow, but is a good example of a simple brute force script.
 
 # Define the password and target connection details
 PASSWORD="gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8"
